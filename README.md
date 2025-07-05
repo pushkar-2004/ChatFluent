@@ -90,12 +90,24 @@ The frontend will usually be available at `http://localhost:5173` and backend at
 
 ```
 ChatFluent/
-├── backend/            # Node.js Express API
+├── backend/
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   └── src/
+├── frontend/
+│   ├── .gitignore
+│   ├── README.md
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── public/
 │   ├── src/
-│   └── ...
-├── frontend/           # React app
-│   ├── src/
-│   └── ...
+│   ├── tailwind.config.js
+│   └── vite.config.js
+├── package.json
 └── README.md
 ```
 
